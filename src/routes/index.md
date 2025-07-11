@@ -3,6 +3,10 @@ label: Home
 title: Global Game Jam 2026
 ---
 
+<script>
+    import Counter from '../components/Counter.svelte';
+</script>
+
 # Welcome to the SvelteKit Netlify CMS example
 
 This is the [`/routes/index.md`](https://github.com/buhrmi/sveltekit-netlify-cms/blob/main/src/routes/index.md) file, which is preprocessed by [mdsvex](https://mdsvex.com) and is <a href="https://sveltekit-netlify-cms.netlify.app/admin/#/" target="_blank">editable through Netlify CMS</a>

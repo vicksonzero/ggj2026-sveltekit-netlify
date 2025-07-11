@@ -4,7 +4,6 @@
 	const routes = getRoutes();
 
 	export let title;
-	export let label;
 </script>
 
 <svelte:head>

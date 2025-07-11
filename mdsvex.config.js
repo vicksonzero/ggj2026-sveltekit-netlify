@@ -1,3 +1,5 @@
+import { remarkSvelteAutoImport } from '@kasisoft/remark-svelte-auto-import';
+
 const config = {
   "extensions": [".svelte.md", ".md", ".svx"],
 
@@ -5,9 +7,9 @@ const config = {
     "dashes": "oldschool"
   },
   "layout": {
-    _: "./src/layouts/default.svelte"
+    _: "./src/layouts/default.svelte",
   },
-  "remarkPlugins": [],
+  "remarkPlugins": [remarkSvelteAutoImport],
   "rehypePlugins": []
 };
 

@@ -12,5 +12,8 @@
 		"mdsvex": "^0.9.8",
 		"svelte": "^3.34.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@kasisoft/remark-svelte-auto-import": "^0.2.7"
+	}
 }
