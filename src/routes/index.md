@@ -1,6 +1,6 @@
 ---
 label: Home
-title: SvelteKit Netlify CMS
+title: Global Game Jam 2026
 ---
 
 # Welcome to the SvelteKit Netlify CMS example
