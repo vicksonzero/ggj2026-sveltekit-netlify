@@ -14,7 +14,7 @@
 	<ul>
 		{#each routes as route}
 			<li>
-				<a href={route.path}>{route.title}</a>
+				<a href={route.path}>{route.label} ({route.title})</a>
 			</li>
 		{/each}
 	</ul>
