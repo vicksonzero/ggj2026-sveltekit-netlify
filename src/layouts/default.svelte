@@ -4,10 +4,11 @@
 	const routes = getRoutes();
 
 	export let title;
+	export let label;
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>label | {title}</title>
 </svelte:head>
 
 <nav>
